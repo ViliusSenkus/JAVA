@@ -15,7 +15,7 @@ After product build, code will be moved to other repositorium.
 - git add README.md    or git add .
 - git commit -m "first commit"
 - git branch -M main
-- git remote add origin https://github.com/<repsitorium address>.git
+- git remote add origin https://github.com/ <repsitorium address> .git
 - git push -u origin main
 
 #### Creating submodule
