@@ -11,9 +11,9 @@ public class Rocket {
       private void rotate(){
             System.out.println("I'm turning");
       }
-
-      
-
-
-      
+    
+      public void performTask(){
+            Task myTask = new Task();
+            System.out.println(myTask.getTask());
+      }
 }

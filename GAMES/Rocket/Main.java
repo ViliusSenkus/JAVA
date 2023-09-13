@@ -10,5 +10,10 @@ public class Main {
 
             Field myField = new Field(x, y, color, t);
 
+            System.out.println("\n\n");
+
+            Rocket myRocket = new Rocket();
+            myRocket.performTask();
+
       }
 }
