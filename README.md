@@ -15,14 +15,12 @@ After product build, code will be moved to other repositorium.
 - git add README.md    or git add .
 - git commit -m "first commit"
 - git branch -M main
-- git remote add origin https://github.com/ Repsitorium address .git
+- git remote add origin https://github.com/ <Repsitorium address> .git
 - git push -u origin main
 
 #### Creating submodule
 
-- git submodule add https://github.com/ViliusSenkus/JAVAProjektai SubmoduleName
+- git submodule add https://github.com/ <Repositorium address> SubmoduleName
 - git add .gitmodules SubmoduleName
 - git commit -m "Messege"
-- git push
-
-
+- git push.
